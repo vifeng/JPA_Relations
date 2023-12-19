@@ -1,0 +1,1656 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "SpringEducativeSchool",
+    "dateExported": "2023-08-15T06:45:26.912Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "0764a456-3e14-47cc-a00e-b7572dbb8e33",
+            "name": "DatabaseRelationShips",
+            "containerId": "",
+            "created": "2023-08-10T10:49:24.143Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "5c3e3ac1-8198-46ed-84c8-3a01f5fcda15",
+            "name": "1_OneToOne Unidirectionnel",
+            "containerId": "0764a456-3e14-47cc-a00e-b7572dbb8e33",
+            "created": "2023-08-10T11:05:12.288Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "56ba57d0-2416-46b3-8e47-5ed986b39ae8",
+            "name": "2_OneToOne Bidirectionnel",
+            "containerId": "0764a456-3e14-47cc-a00e-b7572dbb8e33",
+            "created": "2023-08-10T12:19:03.614Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "c68a069c-195a-4e06-aba6-8ba1ef7eb85d",
+            "name": "3_onetoMany Unidirectional",
+            "containerId": "0764a456-3e14-47cc-a00e-b7572dbb8e33",
+            "created": "2023-08-11T13:08:03.496Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "1b0d9fb9-7d4a-4071-b1e4-afcc09114aed",
+            "name": "scenario 1",
+            "containerId": "c68a069c-195a-4e06-aba6-8ba1ef7eb85d",
+            "created": "2023-08-14T13:38:49.948Z",
+            "sortNum": 70000
+        },
+        {
+            "_id": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "base scenario",
+            "containerId": "c68a069c-195a-4e06-aba6-8ba1ef7eb85d",
+            "created": "2023-08-14T13:38:14.210Z",
+            "sortNum": 80000
+        },
+        {
+            "_id": "f092d73a-8826-4820-81fc-9b87d0c2e2c7",
+            "name": "4_OnetoMany Bidirectional",
+            "containerId": "0764a456-3e14-47cc-a00e-b7572dbb8e33",
+            "created": "2023-08-14T14:00:09.187Z",
+            "sortNum": 90000
+        },
+        {
+            "_id": "a944747d-35e6-4665-a98d-958c1e520841",
+            "name": "Base scenario",
+            "containerId": "f092d73a-8826-4820-81fc-9b87d0c2e2c7",
+            "created": "2023-08-14T14:00:56.868Z",
+            "sortNum": 100000
+        },
+        {
+            "_id": "0802ad36-db7c-4733-b28f-be9456a3f3b6",
+            "name": "scenario 1",
+            "containerId": "f092d73a-8826-4820-81fc-9b87d0c2e2c7",
+            "created": "2023-08-14T14:01:05.535Z",
+            "sortNum": 110000
+        },
+        {
+            "_id": "b8f5b8b5-555e-49b6-b0fb-433c1556ed8c",
+            "name": "5_ManytoMany Unidirectional",
+            "containerId": "0764a456-3e14-47cc-a00e-b7572dbb8e33",
+            "created": "2023-08-14T15:18:32.600Z",
+            "sortNum": 120000
+        },
+        {
+            "_id": "318c15fc-a3c7-454e-b444-f6790626f354",
+            "name": "Base scenario",
+            "containerId": "b8f5b8b5-555e-49b6-b0fb-433c1556ed8c",
+            "created": "2023-08-14T15:19:28.420Z",
+            "sortNum": 130000
+        },
+        {
+            "_id": "ee5198f8-e771-4f96-ba74-91c3798795d7",
+            "name": "scenario 1 - assign categorie to tournaments",
+            "containerId": "b8f5b8b5-555e-49b6-b0fb-433c1556ed8c",
+            "created": "2023-08-14T15:19:38.877Z",
+            "sortNum": 140000
+        },
+        {
+            "_id": "2c42ca5f-bebb-4f17-ba49-2a565ceb0df5",
+            "name": "scenario 2 - nested category in tournament",
+            "containerId": "b8f5b8b5-555e-49b6-b0fb-433c1556ed8c",
+            "created": "2023-08-14T16:31:44.771Z",
+            "sortNum": 150000
+        },
+        {
+            "_id": "36302d20-b944-437c-94c4-20d7e4d2594f",
+            "name": "scenario 3- Delete",
+            "containerId": "b8f5b8b5-555e-49b6-b0fb-433c1556ed8c",
+            "created": "2023-08-14T16:35:59.383Z",
+            "sortNum": 160000
+        },
+        {
+            "_id": "a3c77c36-beb8-49d0-b1cc-a02e851cad5d",
+            "name": "6_ManytoMany Bidirectional",
+            "containerId": "0764a456-3e14-47cc-a00e-b7572dbb8e33",
+            "created": "2023-08-15T06:30:20.539Z",
+            "sortNum": 170000
+        },
+        {
+            "_id": "bc15a171-aba7-49c3-8c5f-11411a3a5b07",
+            "name": "base scenario",
+            "containerId": "a3c77c36-beb8-49d0-b1cc-a02e851cad5d",
+            "created": "2023-08-15T06:30:33.707Z",
+            "sortNum": 180000
+        },
+        {
+            "_id": "4694211d-8c83-4886-9cd8-c616448bdb89",
+            "name": "scenario 1 - assign categorie to tournaments Copy",
+            "containerId": "a3c77c36-beb8-49d0-b1cc-a02e851cad5d",
+            "created": "2023-08-15T06:37:47.297Z",
+            "sortNum": 185000
+        },
+        {
+            "_id": "7bc5268b-4bb3-4eb5-8515-14ce6d0731bc",
+            "name": "scenario 2 - nested category in tournament Copy",
+            "containerId": "a3c77c36-beb8-49d0-b1cc-a02e851cad5d",
+            "created": "2023-08-15T06:40:31.896Z",
+            "sortNum": 195000
+        },
+        {
+            "_id": "06d150ad-4007-4c44-b68e-a6d5ef3d8de3",
+            "name": "scenario 3- Delete Copy",
+            "containerId": "a3c77c36-beb8-49d0-b1cc-a02e851cad5d",
+            "created": "2023-08-15T06:41:44.783Z",
+            "sortNum": 205000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "c8688052-eb81-4e0d-9bd8-3aea3d6bba52",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "5c3e3ac1-8198-46ed-84c8-3a01f5fcda15",
+            "name": "players",
+            "url": "players",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-08-10T10:50:07.050Z",
+            "modified": "2023-08-10T11:06:31.099Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "794c57f6-85b2-47ca-8de8-832a2a4c2e53",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "1b0d9fb9-7d4a-4071-b1e4-afcc09114aed",
+            "name": "removeregistration from Tournament",
+            "url": "tournaments/{id}/remove_registrations/{registration_id}",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2023-08-14T13:30:39.367Z",
+            "modified": "2023-08-14T13:34:40.959Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "registration_id",
+                    "value": "4",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "28c882d4-ab9a-44d7-8bbf-37209b31300a",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "c68a069c-195a-4e06-aba6-8ba1ef7eb85d",
+            "name": "tournaments",
+            "url": "tournaments",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-08-14T13:42:45.682Z",
+            "modified": "2023-08-14T13:42:45.682Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "16ea9e79-74b5-407f-bc28-71862a6891fb",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "f092d73a-8826-4820-81fc-9b87d0c2e2c7",
+            "name": "players",
+            "url": "players",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-08-14T14:01:25.701Z",
+            "modified": "2023-08-14T15:15:01.485Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f1d5542b-c9fb-4510-add4-85e558952527",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "5c3e3ac1-8198-46ed-84c8-3a01f5fcda15",
+            "name": "profiles",
+            "url": "profiles",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-08-10T10:50:45.345Z",
+            "modified": "2023-08-10T11:06:46.300Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "443c4b7b-d5c1-44fe-962b-b5f3704a1f2f",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "1b0d9fb9-7d4a-4071-b1e4-afcc09114aed",
+            "name": "tournament2",
+            "url": "tournaments/{id}",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-08-11T13:49:26.333Z",
+            "modified": "2023-08-14T13:00:59.728Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f15ed5b8-9076-41d7-a570-451157e30e3b",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "c68a069c-195a-4e06-aba6-8ba1ef7eb85d",
+            "name": "registrations",
+            "url": "registrations",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-08-14T13:42:54.748Z",
+            "modified": "2023-08-14T13:42:54.748Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8af68a04-167f-4d10-a460-62b9eaaa1ab8",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "f092d73a-8826-4820-81fc-9b87d0c2e2c7",
+            "name": "registrations ",
+            "url": "registrations",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-08-14T14:01:31.468Z",
+            "modified": "2023-08-14T14:01:31.468Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "597e4257-2d96-44b9-82c2-c725cfb71873",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "5c3e3ac1-8198-46ed-84c8-3a01f5fcda15",
+            "name": "profile",
+            "url": "profiles",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-08-10T10:57:43.678Z",
+            "modified": "2023-08-10T11:06:58.647Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"twitter\" : \"@rogerfederer\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cc52895d-e422-42d7-8f8d-0a4283832e91",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "tournaments 1",
+            "url": "tournaments",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-08-11T13:28:09.695Z",
+            "modified": "2023-08-11T13:47:29.711Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Canadian Open\",\n    \"location\": \"Toronto\"\n }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "036ab945-199c-4467-9eae-a7ea36982cf8",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "5c3e3ac1-8198-46ed-84c8-3a01f5fcda15",
+            "name": "players",
+            "url": "players",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-08-10T10:56:46.471Z",
+            "modified": "2023-08-10T11:07:19.579Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Djokovic\",\n    \"playerProfile\": {\n        \"twitter\" : \"@DjokerNole\"\n    }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "359b0b86-7b04-4eb3-9c23-0f9ba9452301",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "tournaments 2",
+            "url": "tournaments",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-08-11T13:28:39.594Z",
+            "modified": "2023-08-11T13:28:55.067Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"US Open\",\n    \"location\": \"New York City\"\n }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cf341ba5-8ed8-4cad-b715-cae8f65f3479",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "5c3e3ac1-8198-46ed-84c8-3a01f5fcda15",
+            "name": "Assign profile to player",
+            "url": "players/{id}/profiles/{profile_id}",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-08-10T10:59:19.189Z",
+            "modified": "2023-08-10T11:07:39.615Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                },
+                {
+                    "name": "profile_id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "cb46af45-0532-4be5-9024-13b547cfc0d8",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "56ba57d0-2416-46b3-8e47-5ed986b39ae8",
+            "name": "players",
+            "url": "players",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-08-11T08:09:21.660Z",
+            "modified": "2023-08-11T09:55:17.885Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Nadal\",\n    \"playerProfile\": {\n        \"twitter\" : \"@Nad\"\n    }\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7fc8a3b0-8c3d-460d-bb64-32220d0f02cd",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "registrations 1",
+            "url": "registrations",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-08-11T13:30:03.235Z",
+            "modified": "2023-08-11T13:31:17.263Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "89bdbb4e-232b-4275-b451-07361f80ae7b",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "56ba57d0-2416-46b3-8e47-5ed986b39ae8",
+            "name": "profiles",
+            "url": "profiles",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-08-11T08:24:39.694Z",
+            "modified": "2023-08-11T08:24:46.239Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8afb9278-4472-4393-b2f9-f6dd789bd699",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "registrations 2",
+            "url": "registrations",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-08-11T13:31:43.941Z",
+            "modified": "2023-08-11T13:31:43.941Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a5512bfd-c732-4e46-876e-87167cdb6bf4",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "56ba57d0-2416-46b3-8e47-5ed986b39ae8",
+            "name": "profile",
+            "url": "http://localhost:8080/profiles/{id}",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-08-11T09:56:01.706Z",
+            "modified": "2023-08-11T09:56:33.347Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "11568613-4839-4a46-84c9-a138b62a19f4",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "registrations 3",
+            "url": "registrations",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-08-11T13:31:46.891Z",
+            "modified": "2023-08-11T13:31:46.891Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "80483dce-2429-416e-889c-c8c6f738133d",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "56ba57d0-2416-46b3-8e47-5ed986b39ae8",
+            "name": "add a player but no profile (optional = false)",
+            "url": "players",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-08-11T12:57:57.200Z",
+            "modified": "2023-08-11T12:58:30.029Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Federer\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fd937f2d-a293-4b5b-bad8-2a9079f6eda3",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "registrations 4",
+            "url": "registrations",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-08-11T13:31:51.643Z",
+            "modified": "2023-08-11T13:31:51.643Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7517ab6e-e06c-4899-95d9-ffe0957f0e5a",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "associate tournament to registration",
+            "url": "tournaments/{id}/registrations/{id}",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2023-08-11T13:32:58.012Z",
+            "modified": "2023-08-11T13:33:52.752Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                },
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6d474c99-7052-4227-b3b4-910ca2931fa1",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "associate tournament to registration 2",
+            "url": "tournaments/{id}/registrations/{id}",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-08-11T13:34:36.550Z",
+            "modified": "2023-08-11T13:34:52.594Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "598f56b0-db20-4bf3-b447-127f181dd759",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "associate tournament to registration 3",
+            "url": "tournaments/{id}/registrations/{id}",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2023-08-11T13:34:57.944Z",
+            "modified": "2023-08-11T13:35:47.625Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "907ee153-c67b-45e1-a2f5-3ecbdfbce719",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "af592063-0333-4322-b95d-473e16060e1d",
+            "name": "associate tournament to registration 4",
+            "url": "tournaments/{id}/registrations/{id}",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2023-08-11T13:35:55.170Z",
+            "modified": "2023-08-11T13:36:16.479Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "id",
+                    "value": "4",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "532437c5-172e-4f49-a189-b0252b792d9b",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "a944747d-35e6-4665-a98d-958c1e520841",
+            "name": "player",
+            "url": "players",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2023-08-14T15:08:32.043Z",
+            "modified": "2023-08-14T15:08:46.818Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Djokovic\",\n    \"playerProfile\": {\n        \"twitter\" : \"@DjokerNole\"\n    }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "59399273-9af5-478b-a42f-cc8570722f75",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "a944747d-35e6-4665-a98d-958c1e520841",
+            "name": "registration",
+            "url": "registrations",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2023-08-14T15:09:02.662Z",
+            "modified": "2023-08-14T15:09:24.051Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fca7fc11-7ca2-4887-bca3-0c1191b07632",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "a944747d-35e6-4665-a98d-958c1e520841",
+            "name": "registration 2",
+            "url": "registrations",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2023-08-14T15:10:49.079Z",
+            "modified": "2023-08-14T15:10:49.079Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3ca78946-c92b-46f6-9150-833bcd7f9a6c",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "a944747d-35e6-4665-a98d-958c1e520841",
+            "name": "bidirect mapping player registration",
+            "url": "players/{id}/registrations/{registration_id}",
+            "method": "PUT",
+            "sortNum": 150000,
+            "created": "2023-08-14T15:11:59.827Z",
+            "modified": "2023-08-14T15:14:03.533Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                },
+                {
+                    "name": "registration_id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "d3d2ccad-762f-4e9d-a30e-19bdc683774f",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "a944747d-35e6-4665-a98d-958c1e520841",
+            "name": "registration 3",
+            "url": "registrations",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2023-08-14T15:10:53.662Z",
+            "modified": "2023-08-14T15:10:53.662Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "315fa45c-81b9-4b3f-97b0-1649079fc621",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "a944747d-35e6-4665-a98d-958c1e520841",
+            "name": "bidirect mapping player registration Copy",
+            "url": "players/{id}/registrations/{registration_id}",
+            "method": "PUT",
+            "sortNum": 160000,
+            "created": "2023-08-14T15:13:53.017Z",
+            "modified": "2023-08-14T15:13:53.017Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                },
+                {
+                    "name": "registration_id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "1028a7e9-c9bb-4d78-9c6c-7055c3fa4f67",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "0802ad36-db7c-4733-b28f-be9456a3f3b6",
+            "name": "registration",
+            "url": "registrations/{id}",
+            "method": "DELETE",
+            "sortNum": 160000,
+            "created": "2023-08-14T15:15:56.378Z",
+            "modified": "2023-08-14T15:16:21.006Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "af66e661-4ede-4c40-bf5b-d1ae28f29e51",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "318c15fc-a3c7-454e-b444-f6790626f354",
+            "name": "tournament 1",
+            "url": "tournaments",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2023-08-14T16:15:11.887Z",
+            "modified": "2023-08-14T16:15:29.248Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Canadian Open\",\n    \"location\": \"Toronto\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cacced37-9971-47f9-a1b9-3b67b18931ec",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "318c15fc-a3c7-454e-b444-f6790626f354",
+            "name": "tournament 2",
+            "url": "tournaments",
+            "method": "POST",
+            "sortNum": 180000,
+            "created": "2023-08-14T16:15:48.149Z",
+            "modified": "2023-08-14T16:16:09.413Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"US Open\",\n    \"location\": \"New York City\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "800db669-ab6d-451a-acff-b767518d6f8b",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "318c15fc-a3c7-454e-b444-f6790626f354",
+            "name": "categories 1",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 180000,
+            "created": "2023-08-14T16:16:25.317Z",
+            "modified": "2023-08-14T16:16:39.230Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Men's Singles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "393d9025-dff1-4053-bacd-e124e903802f",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "318c15fc-a3c7-454e-b444-f6790626f354",
+            "name": "categories 2",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 190000,
+            "created": "2023-08-14T16:16:57.509Z",
+            "modified": "2023-08-14T16:17:19.081Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Men's Doubles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f9240b0a-8fd9-4fde-a885-98f0d9c96f6f",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "318c15fc-a3c7-454e-b444-f6790626f354",
+            "name": "categories 3",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 200000,
+            "created": "2023-08-14T16:17:26.283Z",
+            "modified": "2023-08-14T16:17:36.752Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Ladies Singles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ea939a84-538c-43fb-8ef3-9fe194d1da43",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "b8f5b8b5-555e-49b6-b0fb-433c1556ed8c",
+            "name": "tournaments",
+            "url": "tournaments",
+            "method": "GET",
+            "sortNum": 200000,
+            "created": "2023-08-14T16:20:06.185Z",
+            "modified": "2023-08-14T16:20:13.953Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2ef88a12-b97c-415d-8132-308f30bfb9fa",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "318c15fc-a3c7-454e-b444-f6790626f354",
+            "name": "categories 4",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 210000,
+            "created": "2023-08-14T16:17:50.318Z",
+            "modified": "2023-08-14T16:18:11.819Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Ladies Doubles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "71ff9e57-3bd8-4b4a-b62a-d1e21c554fad",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "b8f5b8b5-555e-49b6-b0fb-433c1556ed8c",
+            "name": "categories",
+            "url": "categories",
+            "method": "GET",
+            "sortNum": 210000,
+            "created": "2023-08-14T16:20:37.579Z",
+            "modified": "2023-08-14T16:20:41.428Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "715682a7-a519-4245-9678-14e31f1438bb",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "318c15fc-a3c7-454e-b444-f6790626f354",
+            "name": "categories 5",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 220000,
+            "created": "2023-08-14T16:18:17.595Z",
+            "modified": "2023-08-14T16:18:38.411Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Mixed Doubles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4abb533a-784e-4880-834d-68d9b52cc854",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "ee5198f8-e771-4f96-ba74-91c3798795d7",
+            "name": "tournament to cat 1",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 220000,
+            "created": "2023-08-14T16:21:52.119Z",
+            "modified": "2023-08-14T16:26:34.735Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "906b1702-f30f-455a-b88f-4e45b5ace58f",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "4694211d-8c83-4886-9cd8-c616448bdb89",
+            "name": "tournament to cat 1",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 220000,
+            "created": "2023-08-15T06:37:47.298Z",
+            "modified": "2023-08-15T06:37:47.298Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "bcfb255c-eac5-4ed7-9bb6-a687ee2d7331",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "ee5198f8-e771-4f96-ba74-91c3798795d7",
+            "name": "tournament to cat 2",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 230000,
+            "created": "2023-08-14T16:23:02.427Z",
+            "modified": "2023-08-14T16:26:41.157Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b80ab82f-a943-4f65-90ff-5f7633e1d0f9",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "ee5198f8-e771-4f96-ba74-91c3798795d7",
+            "name": "tournament to Cat 3",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 230000,
+            "created": "2023-08-14T16:24:13.879Z",
+            "modified": "2023-08-14T16:26:58.768Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "7117a567-5da2-4fa5-bbb8-bdd90a291d9f",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "4694211d-8c83-4886-9cd8-c616448bdb89",
+            "name": "tournament to cat 2",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 230000,
+            "created": "2023-08-15T06:37:47.299Z",
+            "modified": "2023-08-15T06:37:47.298Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "5debded5-c32a-42ed-89d6-a52689990cdf",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "4694211d-8c83-4886-9cd8-c616448bdb89",
+            "name": "tournament to Cat 3",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 230000,
+            "created": "2023-08-15T06:37:47.300Z",
+            "modified": "2023-08-15T06:37:47.298Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "ffcaf69b-b6fa-4d4a-b02c-c86c7fbddd16",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "ee5198f8-e771-4f96-ba74-91c3798795d7",
+            "name": "tournament to Cat 4",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 240000,
+            "created": "2023-08-14T16:24:47.995Z",
+            "modified": "2023-08-14T16:28:57.757Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "24ed16da-cf04-4690-b25a-ec3e0159e728",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "2c42ca5f-bebb-4f17-ba49-2a565ceb0df5",
+            "name": "category",
+            "url": "tournaments",
+            "method": "POST",
+            "sortNum": 240000,
+            "created": "2023-08-14T16:32:02.595Z",
+            "modified": "2023-08-14T16:32:44.071Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\":\"Western and Southern Open\",\n    \"location\":\"Cincinatti\",\n    \"registrations\": null,\n    \"playingCategories\":[{\n        \"id\":3\n    },\n    {\n        \"id\":4\n    }]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a67abab2-058e-44d3-9e42-57cded4374d9",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "4694211d-8c83-4886-9cd8-c616448bdb89",
+            "name": "tournament to Cat 4",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 240000,
+            "created": "2023-08-15T06:37:47.301Z",
+            "modified": "2023-08-15T06:37:47.298Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "9fd04bfa-d200-42af-bb2c-e67896b8866d",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "7bc5268b-4bb3-4eb5-8515-14ce6d0731bc",
+            "name": "category",
+            "url": "tournaments",
+            "method": "POST",
+            "sortNum": 240000,
+            "created": "2023-08-15T06:40:31.896Z",
+            "modified": "2023-08-15T06:40:31.896Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\":\"Western and Southern Open\",\n    \"location\":\"Cincinatti\",\n    \"registrations\": null,\n    \"playingCategories\":[{\n        \"id\":3\n    },\n    {\n        \"id\":4\n    }]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7a13f104-8e84-4f20-9343-7147893c0e50",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "ee5198f8-e771-4f96-ba74-91c3798795d7",
+            "name": "tournament to Cat 5",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 250000,
+            "created": "2023-08-14T16:25:09.846Z",
+            "modified": "2023-08-14T16:29:07.947Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "3460e90e-3374-40e2-bf6d-3fb50a9b2fe0",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "36302d20-b944-437c-94c4-20d7e4d2594f",
+            "name": "delete tournament",
+            "url": "tournaments/{id}",
+            "method": "DELETE",
+            "sortNum": 250000,
+            "created": "2023-08-14T16:36:25.001Z",
+            "modified": "2023-08-14T16:51:15.573Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "612f5ab4-1f02-43db-9d31-9639b3199c2a",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "4694211d-8c83-4886-9cd8-c616448bdb89",
+            "name": "tournament to Cat 5",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 250000,
+            "created": "2023-08-15T06:37:47.302Z",
+            "modified": "2023-08-15T06:37:47.298Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "2c0bc897-8556-47df-9260-134a79f90226",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "06d150ad-4007-4c44-b68e-a6d5ef3d8de3",
+            "name": "delete tournament",
+            "url": "tournaments/{id}",
+            "method": "DELETE",
+            "sortNum": 250000,
+            "created": "2023-08-15T06:41:44.783Z",
+            "modified": "2023-08-15T06:41:44.783Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "a227974e-ebad-487a-a61f-8c0fd6503845",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "36302d20-b944-437c-94c4-20d7e4d2594f",
+            "name": "delete category - violation contrainte",
+            "url": "categories/{id}",
+            "method": "DELETE",
+            "sortNum": 251250,
+            "created": "2023-08-14T16:38:13.412Z",
+            "modified": "2023-08-14T16:46:08.078Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": [
+                {
+                    "type": "res-code",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "500"
+                }
+            ]
+        },
+        {
+            "_id": "0ed1e28e-2989-4c8c-8bc0-b090dc8d46b6",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "06d150ad-4007-4c44-b68e-a6d5ef3d8de3",
+            "name": "delete category - violation contrainte",
+            "url": "categories/{id}",
+            "method": "DELETE",
+            "sortNum": 251250,
+            "created": "2023-08-15T06:41:44.784Z",
+            "modified": "2023-08-15T06:41:44.783Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": [
+                {
+                    "type": "res-code",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "500"
+                }
+            ]
+        },
+        {
+            "_id": "29ff2f4e-d602-40eb-850a-35c448424e86",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "36302d20-b944-437c-94c4-20d7e4d2594f",
+            "name": "delete tournament 3",
+            "url": "tournaments/{id}",
+            "method": "DELETE",
+            "sortNum": 255000,
+            "created": "2023-08-14T16:39:44.973Z",
+            "modified": "2023-08-14T16:46:48.874Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "2f5ec60c-98dd-4c8e-8100-446b61e16572",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "06d150ad-4007-4c44-b68e-a6d5ef3d8de3",
+            "name": "delete tournament 3",
+            "url": "tournaments/{id}",
+            "method": "DELETE",
+            "sortNum": 255000,
+            "created": "2023-08-15T06:41:44.785Z",
+            "modified": "2023-08-15T06:43:25.509Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "aecb3365-a2ad-4627-9350-5097e2992852",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "ee5198f8-e771-4f96-ba74-91c3798795d7",
+            "name": "tournament to Cat 6",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 260000,
+            "created": "2023-08-14T16:25:24.446Z",
+            "modified": "2023-08-14T16:27:20.542Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "4",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "ba4a007e-040e-4334-af1e-4b94bc31d52c",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "4694211d-8c83-4886-9cd8-c616448bdb89",
+            "name": "tournament to Cat 6",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 260000,
+            "created": "2023-08-15T06:37:47.303Z",
+            "modified": "2023-08-15T06:37:47.298Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "4",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "19bb1316-7ed7-45ec-ad17-f814456d5914",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "36302d20-b944-437c-94c4-20d7e4d2594f",
+            "name": "delete category ok car non utilisée par tournament",
+            "url": "categories/{id}",
+            "method": "DELETE",
+            "sortNum": 265000,
+            "created": "2023-08-14T16:40:18.459Z",
+            "modified": "2023-08-14T16:47:28.497Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "d4691266-8937-4510-8ba5-756a279e146b",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "06d150ad-4007-4c44-b68e-a6d5ef3d8de3",
+            "name": "delete category ok car non utilisée par tournament",
+            "url": "categories/{id}",
+            "method": "DELETE",
+            "sortNum": 265000,
+            "created": "2023-08-15T06:41:44.786Z",
+            "modified": "2023-08-15T06:41:44.783Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "05504991-9710-4f9f-930e-71a808899d39",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "ee5198f8-e771-4f96-ba74-91c3798795d7",
+            "name": "tournament to Cat 7",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 270000,
+            "created": "2023-08-14T16:29:38.353Z",
+            "modified": "2023-08-14T16:30:01.718Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "5",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "27c9a936-3fa7-4635-840e-ab4c3b736c0a",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "4694211d-8c83-4886-9cd8-c616448bdb89",
+            "name": "tournament to Cat 7",
+            "url": "tournaments/{id}/categories/{category_id}",
+            "method": "PUT",
+            "sortNum": 270000,
+            "created": "2023-08-15T06:37:47.304Z",
+            "modified": "2023-08-15T06:37:47.298Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                },
+                {
+                    "name": "category_id",
+                    "value": "5",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "231437c3-09f2-4515-a491-b65a5cb6d8f5",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "bc15a171-aba7-49c3-8c5f-11411a3a5b07",
+            "name": "tournaments 1",
+            "url": "tournaments",
+            "method": "POST",
+            "sortNum": 280000,
+            "created": "2023-08-15T06:31:02.116Z",
+            "modified": "2023-08-15T06:31:23.005Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Canadian Open\",\n    \"location\": \"Toronto\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fe87297c-8991-4758-829c-37c8bb2dbdfa",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "bc15a171-aba7-49c3-8c5f-11411a3a5b07",
+            "name": "tournament 2",
+            "url": "tournaments",
+            "method": "POST",
+            "sortNum": 290000,
+            "created": "2023-08-15T06:31:34.803Z",
+            "modified": "2023-08-15T06:31:51.497Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"US Open\",\n    \"location\": \"New York City\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "70adb635-41c0-4fc7-851a-f1e4f9e6b25f",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "bc15a171-aba7-49c3-8c5f-11411a3a5b07",
+            "name": "categorie 1",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 300000,
+            "created": "2023-08-15T06:32:17.455Z",
+            "modified": "2023-08-15T06:32:44.143Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Men's Singles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eb173156-cf28-4ebf-bfc0-d7527c6e1597",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "bc15a171-aba7-49c3-8c5f-11411a3a5b07",
+            "name": "categorie 2",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 310000,
+            "created": "2023-08-15T06:32:59.609Z",
+            "modified": "2023-08-15T06:33:14.929Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Men's Doubles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "462d2bb6-6947-409a-bdfc-94e203a7c230",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "bc15a171-aba7-49c3-8c5f-11411a3a5b07",
+            "name": "categorie 3",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 320000,
+            "created": "2023-08-15T06:33:19.369Z",
+            "modified": "2023-08-15T06:33:35.050Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Ladies Singles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e718efc0-fd9a-4dd1-8720-f8aba6392bb5",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "a3c77c36-beb8-49d0-b1cc-a02e851cad5d",
+            "name": "categories",
+            "url": "categories",
+            "method": "GET",
+            "sortNum": 320000,
+            "created": "2023-08-15T06:34:46.400Z",
+            "modified": "2023-08-15T06:34:51.453Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d8491b86-5737-45e2-93b8-8c963c73de42",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "bc15a171-aba7-49c3-8c5f-11411a3a5b07",
+            "name": "categorie 4",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 330000,
+            "created": "2023-08-15T06:33:22.667Z",
+            "modified": "2023-08-15T06:34:01.098Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Ladies Doubles\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6342e295-08a6-400b-be84-8148ca997aae",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "a3c77c36-beb8-49d0-b1cc-a02e851cad5d",
+            "name": "tournaments",
+            "url": "tournaments",
+            "method": "GET",
+            "sortNum": 330000,
+            "created": "2023-08-15T06:35:01.474Z",
+            "modified": "2023-08-15T06:35:06.303Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "354f4c99-3639-40e4-84f2-731dbbef2970",
+            "colId": "120da80c-148c-413d-ac34-943344fa8016",
+            "containerId": "bc15a171-aba7-49c3-8c5f-11411a3a5b07",
+            "name": "categorie 5",
+            "url": "categories",
+            "method": "POST",
+            "sortNum": 340000,
+            "created": "2023-08-15T06:33:24.936Z",
+            "modified": "2023-08-15T06:34:27.254Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"Mixed Doubles\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8080/"
+        }
+    }
+}
